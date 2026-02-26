@@ -1,0 +1,9 @@
+{
+	"name": "adfpractice1118",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e9131fe-eca5-4720-a496-8d342e79009e",
+		"tenantId": "8018eb16-dc0f-46ac-ac1f-53d2131091bd"
+	}
+}
