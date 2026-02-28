@@ -125,7 +125,10 @@
 											"value": "@{item().table}_cdc",
 											"type": "Expression"
 										},
-										"file": "cdc.json"
+										"file": {
+											"value": "cdc.json\n",
+											"type": "Expression"
+										}
 									}
 								},
 								"firstRowOnly": false
@@ -280,7 +283,7 @@
 														"type": "Expression"
 													},
 													"file": {
-														"value": "@{item().table}_cdc",
+														"value": "cdc.json",
 														"type": "Expression"
 													}
 												}
