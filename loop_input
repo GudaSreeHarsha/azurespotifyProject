@@ -7,7 +7,7 @@
 },
 {
   "schema":"dbo",
-  "table":"DimTrac",
+  "table":"DimTrack",
   "cdc_col":"updated_at",
   "from_date":""
 },
@@ -28,5 +28,5 @@
   "table":"FactStream",
   "cdc_col":"updated_at",
   "from_date":""
-},
+}
 ]
