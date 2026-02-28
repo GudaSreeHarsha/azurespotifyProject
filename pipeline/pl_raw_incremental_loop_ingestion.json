@@ -8,6 +8,11 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.for_each_table\n",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "copyDataFromAzureSQLtoADLS",
@@ -317,7 +322,7 @@
 		],
 		"parameters": {
 			"for_each_table": {
-				"type": "string",
+				"type": "array",
 				"defaultValue": [
 					{
 						"schema": "dbo",
